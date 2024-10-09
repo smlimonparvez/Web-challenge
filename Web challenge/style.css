@@ -131,7 +131,7 @@ nav ul{
     margin-top: 20px;
   }
 
-  .part-2, .part-3{
+  .part-2, .part-3, .part-4{
     width: 75%;
     margin: 50px auto;
     border-radius: 8px;
@@ -154,15 +154,27 @@ nav ul{
        border: 10px;
   }
 
-  .skill-card-1 h3, .skill-card-2 h3, .skill-card-3 h3{
-          margin-top: 15px;
-          margin-bottom: 15px;
+  .skill-card-1 h3, .skill-card-2 h3, .skill-card-3 h3, .next-skill-card-info h3{
+          margin-top: 10px;
+          margin-bottom: 10px;
   }
 
-  .skill-card-1 a, .skill-card-2 a, .skill-card-3 a{
+  .skill-card-1 a, .skill-card-2 a, .skill-card-3 a, .next-skill-card-info a{
     font-size: 16px;
     font-weight: 600;
     color: black;
     margin-top: 20px;
     display: block;
   }
+
+  .next-skill-card{
+    display: flex;
+    border: 1px solid gray;
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+
+  
