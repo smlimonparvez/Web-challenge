@@ -129,6 +129,12 @@ nav ul{
     font-weight: 500;
     color: gray;
     margin-top: 20px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .card-btn:hover{
+    background-color: black;
+    color: aliceblue;
   }
 
   .part-2, .part-3, .part-4, .contact-part{
@@ -221,4 +227,19 @@ nav ul{
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
+  }
+
+  .footer-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 20px auto;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
   }
